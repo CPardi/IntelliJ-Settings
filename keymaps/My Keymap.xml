@@ -1,4 +1,5 @@
 <keymap version="1" name="My Keymap" parent="Visual Studio">
+  <action id="CollapseSelection" />
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="ctrl slash" />
     <keyboard-shortcut first-keystroke="ctrl divide" />
@@ -6,7 +7,11 @@
     <keyboard-shortcut first-keystroke="shift ctrl c" />
   </action>
   <action id="CopyPaths" />
+  <action id="EditorChooseLookupItemDot" />
   <action id="RecentFiles" />
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="ctrl period" />
+  </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="alt f8" />
     <keyboard-shortcut first-keystroke="ctrl alt f" />
