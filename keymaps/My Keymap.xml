@@ -84,6 +84,12 @@
     <keyboard-shortcut first-keystroke="ctrl alt f" />
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl c" />
   </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl r" />
+  </action>
+  <action id="RenameFile">
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl r" />
+  </action>
   <action id="ScrollTreeToCenter" />
   <action id="ToggleFullScreen">
     <keyboard-shortcut first-keystroke="shift alt enter" />
