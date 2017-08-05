@@ -1,6 +1,13 @@
 <keymap version="1" name="My Keymap" parent="Visual Studio">
+  <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateRunToolWindow">
     <keyboard-shortcut first-keystroke="alt 0" />
+  </action>
+  <action id="ActivateStructureToolWindow">
+    <keyboard-shortcut first-keystroke="alt 2" />
+  </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt 7" />
   </action>
   <action id="Back">
     <mouse-shortcut keystroke="button4" />
@@ -29,7 +36,13 @@
     <keyboard-shortcut first-keystroke="ctrl colon" />
     <keyboard-shortcut first-keystroke="shift ctrl c" />
   </action>
+  <action id="CompileDirty">
+    <keyboard-shortcut first-keystroke="f6" />
+  </action>
   <action id="CopyPaths" />
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
   <action id="EditorChooseLookupItemDot" />
   <action id="EditorNextWordInDifferentHumpsMode">
     <keyboard-shortcut first-keystroke="ctrl alt right" />
@@ -93,6 +106,7 @@
   <action id="Maven.ExpandAll">
     <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
+  <action id="Move" />
   <action id="MoveElementLeft" />
   <action id="MoveElementRight" />
   <action id="RecentFiles" />
@@ -110,10 +124,15 @@
   <action id="RenameFile">
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl r" />
   </action>
+  <action id="Resume" />
   <action id="ScrollTreeToCenter" />
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="ctrl t" />
+  </action>
   <action id="ToggleFullScreen">
     <keyboard-shortcut first-keystroke="shift alt enter" />
   </action>
   <action id="Vcs.RollbackChangedLines" />
   <action id="Vcs.ShowMessageHistory" />
+  <action id="Vcs.UpdateProject" />
 </keymap>
