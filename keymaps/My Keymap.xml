@@ -49,6 +49,9 @@
     <keyboard-shortcut first-keystroke="f5" />
   </action>
   <action id="EditorChooseLookupItemDot" />
+  <action id="EditorJoinLines">
+    <keyboard-shortcut first-keystroke="ctrl m" second-keystroke="ctrl j" />
+  </action>
   <action id="EditorNextWordInDifferentHumpsMode">
     <keyboard-shortcut first-keystroke="ctrl alt right" />
   </action>
