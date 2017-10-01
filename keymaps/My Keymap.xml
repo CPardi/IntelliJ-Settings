@@ -1,10 +1,15 @@
 <keymap version="1" name="My Keymap" parent="Visual Studio">
   <action id="ActivateFavoritesToolWindow" />
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="alt 1" />
+    <keyboard-shortcut first-keystroke="altGraph 1" />
+  </action>
   <action id="ActivateRunToolWindow">
     <keyboard-shortcut first-keystroke="alt 0" />
   </action>
   <action id="ActivateStructureToolWindow">
     <keyboard-shortcut first-keystroke="alt 2" />
+    <keyboard-shortcut first-keystroke="altGraph 2" />
   </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt 7" />
@@ -45,6 +50,9 @@
   <action id="CopyPaths" />
   <action id="Debug" />
   <action id="EditorChooseLookupItemDot" />
+  <action id="EditorJoinLines">
+    <keyboard-shortcut first-keystroke="ctrl m" second-keystroke="ctrl j" />
+  </action>
   <action id="EditorNextWordInDifferentHumpsMode">
     <keyboard-shortcut first-keystroke="ctrl alt right" />
   </action>
